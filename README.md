@@ -40,24 +40,24 @@ yarn build
 
 [Necktie-Doctor-Booking-Portal](https://necktie-doctor-booking-portal.netlify.app/)
 
-###User requirements
+### User requirements
 
 - [ ] Users can see a doctor's profile
 - [ ] Users can see a doctor's availability
 - [ ] Doctors may have different opening days & hours (e.g. rest on Wednesday, opens from 9 am to 5 pm on other weekdays); inapplicable time slots will be rejected for booking
 
-####Booking consists of the following elements:
+#### Booking consists of the following elements:
 
 - [ ] ID of the doctor to be visited
 - [ ] a time slot (assuming one hour each)
 - [ ] patient's name
 
-####API requirements
+#### API requirements
 
 - [ ] Users cannot book any time in the past.
 - [ ] Users can only book time slots in line with doctor's opening hours.
 
-###Packages used
+### Packages used
 
 - Axios
   - For easier handling of API requests
@@ -70,7 +70,7 @@ yarn build
 - Vue
   - I have never used this framework before so I was curious to see how it compares to React & Angular :)
 
-###Potential Improvements
+### Potential Improvements
 
 - Testing
   - This will be critical if the app scales in size or new members join in to grow the project
@@ -105,7 +105,7 @@ This will make DateTime parsing easier for both BE and FE developers
 - Assets/Images
   - We can minify assets further (especially icons) to reduce bundle size
 
-###Production Considerations
+### Production Considerations
 
 - FeatureFlags
   - Once the app scales, we may hide certain features behind a feature flag depending on the environment (dev, uat, staging, etc.)
@@ -117,7 +117,7 @@ This will make DateTime parsing easier for both BE and FE developers
 - Always have a rollback plan
   - If there are any breaking changes, we can opt-out of deployment and rollback to a previous version/commit
 
-###User Journey
+### User Journey
 
 1. User selects "Book appointment" with their preferred doctor
 2. User selects date and time corresponding with the doctor's availability
