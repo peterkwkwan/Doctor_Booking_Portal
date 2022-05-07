@@ -1,6 +1,6 @@
 <template>
   <div class="container">
-    <div class="text-h3">Necktie Doctor Booking Portal</div>
+    <div class="text-h3">Doctor Booking Portal</div>
   </div>
 </template>
 
