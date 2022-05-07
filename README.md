@@ -1,4 +1,4 @@
-# necktie-appointment-portal
+# doctor-appointment-portal
 
 ## Project setup
 
@@ -38,7 +38,7 @@ yarn build
 
 ### HOSTED SITE URL ON NETLIFY:
 
-[Necktie-Doctor-Booking-Portal](https://necktie-doctor-booking-portal.netlify.app/)
+[Doctor-Booking-Portal](https://doctor-booking-portal.netlify.app/)
 
 ### User requirements
 
